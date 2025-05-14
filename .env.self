@@ -17,9 +17,9 @@ GOOGLE_SEARCH_SITE="tg.weekim.com"
 TAGS="新华社,美联社"
 RSS_BEAUTIFY=true
 ## 链接页面中的超链接, 使用英文逗号和分号分割
-LINKS=Title1,URL1;Title2,URL3;Title3,URL3;
+LINKS=知识库,https://k.weekim.com;在线工具,https://tools.weekim.com;导航,https://nav.weekim.com;
 
 ## 侧边栏导航项, 使用英文逗号和分号分割
-NAVS=Title1,URL1;Title2,URL3;Title3,URL3;
+NAVS=知识库,https://k.weekim.com;在线工具,https://tools.weekim.com;导航,https://nav.weekim.com;
 ## 展示评论
 COMMENTS=true
