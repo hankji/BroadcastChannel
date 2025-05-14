@@ -89,6 +89,15 @@ const navs = (getEnv(import.meta.env, Astro, 'NAVS') || '')
       {...seoParams}
     />
     <Fragment set:html={HEADER_INJECT} />
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VBMZBL40VQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VBMZBL40VQ');
+</script>
   </head>
 
   <body>
