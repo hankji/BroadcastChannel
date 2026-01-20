@@ -1,3 +1,7 @@
 User-agent: *
 
 Sitemap: /sitemap.xml
+# 允许抓取首页（仅限根路径，例如 subdomain.example.com/）
+Allow: /$
+# 禁止抓取该域名下的所有其他路径
+Disallow: /
