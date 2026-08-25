@@ -57,6 +57,17 @@ const skipLinkText = 'Skip to main content'
       {...seoParams}
     />
     <Fragment set:html={HEADER_INJECT} />
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VBMZBL40VQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VBMZBL40VQ');
+</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6852076082644946"
+crossorigin="anonymous"></script>
   </head>
 
   <body class:list={[pageType, pageClass]}>
